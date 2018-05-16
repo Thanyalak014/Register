@@ -1,0 +1,26 @@
+
+    <form >
+        
+        <div style="padding-bottom: 5px; padding-top: 5px; text-align: center;">
+            <span>Username:</span>
+            <input style="    height: 27px;"  type="text" name="username" placeholder="Username" [(ngModel)]="username" />
+        </div>
+        <div style="padding-bottom: 5px; padding-top: 5px; text-align: center;">
+            <span>Password:</span>
+                <input style="    height: 27px;"  type="password" name="password" placeholder="Password" [(ngModel)]="password" />
+        </div>
+        <div style="padding-bottom: 5px; padding-top: 5px; text-align: center; ">
+                            <button style=
+                            "background-color: #4CAF50;
+                            border: none;
+                            width: 75px;
+                            height: 33px;
+                            border-radius: 6px" (click)="onSubmit()">SIGN IN</button>
+        </div>
+
+        <div style="padding-bottom: 5px; padding-top: 5px; text-align: center; ">
+            <label  (click)="onSubmit()">register</label>
+</div>
+    </form>
+  </div>
+</div>
